@@ -1,0 +1,13 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 7.5%;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+.HomePage > h1 {
+    color: var(--light)
+}

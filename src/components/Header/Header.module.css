@@ -1,0 +1,9 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background: var(--purple)
+}

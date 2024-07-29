@@ -1,0 +1,11 @@
+.HeaderNavigation {
+    height: 80px;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderNavigation > a {
+    text-decoration: none;
+}
