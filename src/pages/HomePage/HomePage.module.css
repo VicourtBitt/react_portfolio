@@ -4,10 +4,52 @@
     align-items: center;
     padding: 1em 7.5%;
     width: 100vw;
-    height: 100vh;
-    margin-bottom: 80px;
+    max-width: 1080px;
+    height: 720px;
+    background-image: url("../../assets/imgs/bg_leftbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.HomePage > h1 {
+.HomePage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 7.5%;
+    width: 100vw;
+    max-width: 1080px;
+    height: 720px;
+    background-image: url("../../assets/imgs/bg_rightbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.HomePage3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 7.5%;
+    width: 100vw;
+    max-width: 1080px;
+    height: 720px;
+    background-image: url("../../assets/imgs/bg_end_leftbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.HomePage4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 7.5%;
+    width: 100vw;
+    max-width: 1080px;
+    height: 720px;
+    background-image: url("../../assets/imgs/bg_end_rightbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.HomePage > h1, .HomePage2 > h1, .HomePage3 > h1, .HomePage4 > h1{
     color: var(--light)
 }

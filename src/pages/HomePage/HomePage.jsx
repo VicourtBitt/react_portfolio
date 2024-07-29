@@ -2,9 +2,15 @@ import style from "./HomePage.module.css"
 
 const HomePage = () => {
     return (
-        <div className={style.HomePage}>
-            <h1>HomePage</h1>
-        </div>
+        <>
+            <section className={style.HomePage3}>
+                <h1>HomePage</h1>
+            </section>
+
+            <section className={style.HomePage4}>
+                <h1>Second</h1>
+            </section>
+        </>
     )
 }
 
