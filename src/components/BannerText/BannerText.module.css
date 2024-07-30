@@ -1,0 +1,14 @@
+.BannerText {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 49.5%;
+    border: 1px solid white;
+    padding: 0.5em;
+}
+
+.BannerText > h1 {
+    font-size: 32px;
+}

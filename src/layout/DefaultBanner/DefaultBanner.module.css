@@ -1,0 +1,31 @@
+.DefaultBanner_BL,
+.DefaultBanner_ER,
+.DefaultBanner_BR,
+.DefaultBanner_SL {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 7.5%;
+    width: 100vw;
+    max-width: 1080px;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--light);
+}
+
+.DefaultBanner_BL {
+    background-image: url("../../assets/imgs/bg_leftbar.png");
+}
+
+.DefaultBanner_SL {
+    background-image: url("../../assets/imgs/bg_start_leftbar.png");
+}
+
+.DefaultBanner_BR {
+    background-image: url("../../assets/imgs/bg_rightbar.png");
+}
+
+.DefaultBanner_ER {
+    background-image: url("../../assets/imgs/bg_end_rightbar.png");
+}
